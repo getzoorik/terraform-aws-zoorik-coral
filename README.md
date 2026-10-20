@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Zoorik. Reduce cloud cost, autonomously." src=".github/brand/zoorik-reveal-tagline-on-navy-960x540.gif" width="640">
+</p>
+
 # terraform-aws-zoorik-coral
 
 The AWS permissions the Coral agent needs on one EKS cluster. It creates the same role, inline policy and Pod Identity association that `zoorikctl connect` creates. The trust and the policy are written exactly as zoorikctl writes them, so zoorikctl sees them as done and never rewrites them.
@@ -79,3 +83,8 @@ lifecycle {
 ```
 
 That block is for `aws_eks_node_group`. For `aws_autoscaling_group`, ignore `min_size`, `desired_capacity` and `tag`.
+
+---
+
+<p align="center"><sub><a href="https://zoorik.com">zoorik.com</a> · <a href="https://zoorik.com/docs">Docs</a> · <a href="https://zoorik.com/security">Security</a> · <a href="https://github.com/getzoorik">Zoorik on GitHub</a></sub></p>
+<p align="center"><sub>The Zoorik, Coral and Amoeba names and logos belong to Zoorik Private Limited.</sub></p>
